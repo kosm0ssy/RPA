@@ -1,0 +1,311 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "01_이론/00_HelloWorld.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "01_이론/01_1_변수 생성.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str1&Sequence_2",
+        "strName&Sequence_1",
+        "strHello&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "01_이론/01_2_변수 유형(실습).xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "objVar&Sequence_1",
+        "strIndex&Sequence_26",
+        "arrSubject&Sequence_26",
+        "intIndex&Sequence_24",
+        "arrNum&Sequence_24",
+        "intResult&Sequence_19",
+        "strNum&Sequence_1",
+        "blEven&Sequence_1",
+        "strName&Sequence_1",
+        "intAge&Sequence_2",
+        "dateTimeToday&Sequence_3",
+        "dateTimeNow&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "01_이론/02_Browser 자동화_Modern.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strTemp&Sequence_6",
+        "strCurrentSeoulTemp&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "02_과제/02_Browser Automation 반복문_Modern.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "arrCity&Sequence_1",
+        "strTemp&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "02_과제/02_Browser Automation_그냥.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strTemp&Sequence_3",
+        "strResult&Sequence_3",
+        "arrCity&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "01_이론/02_Browser 자동화_Classic.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "brNaver&Sequence_1",
+        "strTemp&Sequence_1",
+        "strCurrentSeoulTemp&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "02_과제/02_Browser Automation 반복문_Classic.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strResult&Sequence_1",
+        "strCity&Sequence_1",
+        "brNaver&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME/01_ACME_login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "uiLogout&Sequence_1",
+        "outputElement&Sequence_1",
+        "outputElement_3&Sequence_1",
+        "logoutSession&Sequence_9",
+        "strId&Sequence_2",
+        "sstrPw&Sequence_2",
+        "outputPw&Sequence_3",
+        "outputId&Sequence_3",
+        "loginSessionData&Sequence_3",
+        "blLogout&Sequence_12"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME/02_ACME_메뉴 진입.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "01_이론/03_DT extraction 1_네이버 뉴스.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtTemp&Sequence_6",
+        "dtNewsTitle&Sequence_1",
+        "dtNews&Sequence_1",
+        "strSearch&Sequence_1",
+        "ExtractDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "02_과제/03_DT extraction 1_네이버 뉴스들.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "arrSearch&Sequence_1",
+        "dtResult&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "01_이론/03_DT extraction 2_네이버 코스피.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtKospi&Sequence_1",
+        "FilteredDtKospi&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "02_과제/03_DT extraction 2_네이버 코스닥.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtFilteredKosdaq&Sequence_1",
+        "dtRawKosdaq&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "02_과제/03_DT extraction 3_KBO.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtFiltered&Sequence_2",
+        "dtRaw&Sequence_1",
+        "arrPosition&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "02_과제/03_DT extraction 3_KBO(...).xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strPosition&Sequence_1",
+        "intIndex&Sequence_1",
+        "dtFiltered&Sequence_1",
+        "arrPosition&Sequence_1",
+        "arrUrl&Sequence_1",
+        "dtRaw&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME/03_ACME_DT Extraction.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strPage&Sequence_23",
+        "intIndex&Sequence_22",
+        "dtFiltered&Sequence_2",
+        "arrNewColumn&Sequence_6",
+        "dtRaw&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "01_이론/04_Data manufacturing 1_기초_문자열.41af5f653fb2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strOrigin&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "01_이론/04_Data manufacturing 1_기초_문자열.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "arrResult&Sequence_8",
+        "strOrigin&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "02_과제/04_문자열 가공_1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strPwd&Sequence_2",
+        "strCodeMan&Sequence_2",
+        "strCode&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "02_과제/04_문자열 가공_2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strDate&Sequence_8",
+        "dateDate&Sequence_8",
+        "strAfter&Sequence_6",
+        "strBefore&Sequence_6",
+        "strVar4&Sequence_7",
+        "strVar3&Sequence_7",
+        "strVar2&Sequence_7",
+        "strVar1&Sequence_7"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "01_이론/04_Data manufacturing 2_심화.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strResult&Sequence_7",
+        "strBefore&Sequence_7",
+        "listNum&Sequence_6",
+        "arrTemp&Sequence_4",
+        "arrSubject&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "02_과제/04_문자열 가공_3_네이버 쇼핑.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "arrSearch&Sequence_1",
+        "dtRaw&Sequence_1",
+        "dtFiltered&Sequence_1",
+        "strSearch&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

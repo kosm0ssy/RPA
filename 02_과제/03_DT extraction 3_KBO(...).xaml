@@ -1,0 +1,262 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="_03_DT_extraction_3_KBO" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="_03_DT_extraction_3_KBO_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="_03_DT_extraction_3_KBO" sap:VirtualizedContainerService.HintSize="871.2,2788.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="s:String[]" Name="arrUrl" />
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="dtRaw" />
+      <Variable x:TypeArguments="s:String[]" Name="arrPosition" />
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="dtFiltered" />
+      <Variable x:TypeArguments="x:Int32" Name="intIndex" />
+      <Variable x:TypeArguments="x:String" Name="strPosition" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="613.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;** KBO DT Process START **&quot;]" />
+    <Sequence sap2010:Annotation.AnnotationText="&lt; KBO 선수 랭킹 &gt;&#xA;1. KBO 사이트(https://www.koreabaseball.com/Record/Player/HitterBasic/BasicOld.aspx)&#xA;**선수기록**에서 타자, 투수, 수비, 주루별로 각각 “**2024년**” “**KBO 정규시즌**” DT 추출&#xA;- 컬럼명 : 순위, 선수명, 팀명&#xA;2. 추출한 각 DT는 아래 조건에 맞게 필터링&#xA;- 타자, 투수 : &quot;두산, SSG, 키움&quot; 선수만 남길 것&#xA;- 수비, 주루 : &quot;LG, NC, SSG&quot; 선수만 남길 것&#xA;3. 필터링한 DT 각각 엑셀 시트에 기록&#xA;- 파일명 : Data\Output\KBO.xlsx&#xA;- 시트명 : 타자, 투수, 수비, 주루&#xA;4. 주의사항&#xA;- 전체 단계를 구체적으로 사전 테스트해보고 설계&#xA;- 여러 페이지가 아닌 한페이지만 추출할 것&#xA;- 필요한 경우 액티비티 유효성 체크" DisplayName="URL로 접근 | Sequence" sap:VirtualizedContainerService.HintSize="613.6,1340" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="518.4,180" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+        <ui:MultipleAssign.AssignOperations>
+          <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="s:String[]">[arrPosition]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="s:String[]">[{"타자", "투수", "수비", "주루"}]</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="s:String[]">[arrUrl]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="s:String[]">[{"HitterBasic/BasicOld.aspx", "PitcherBasic/BasicOld.aspx", "Defense/Basic.aspx", "Runner/Basic.aspx"}]</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+          </scg:List>
+        </ui:MultipleAssign.AssignOperations>
+      </ui:MultipleAssign>
+      <ui:ForEach x:TypeArguments="x:String" CurrentIndex="[intIndex]" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="518.4,832" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[arrUrl]">
+        <ui:ForEach.Body>
+          <ActivityAction x:TypeArguments="x:String">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
+            </ActivityAction.Argument>
+            <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Body" sap:VirtualizedContainerService.HintSize="516.8,710.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Assign sap:VirtualizedContainerService.HintSize="483.2,113.6" sap2010:WorkflowViewState.IdRef="Assign_3">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:String">[strPosition]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:String">[arrPosition(intIndex)]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="483.2,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;** &quot; +intIndex.ToString() +&quot;번째 Array : &quot; +strPosition +&quot; **&quot;]" />
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: 타자 | 선수 기록 | 기록실 | 기록/순위 | KBO" sap:VirtualizedContainerService.HintSize="483.2,331.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="c19eaeb8-654b-46b4-8e80-7ea289775592" Version="V2">
+                <uix:NApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="x:Object">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,91.2" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NApplicationCard.Body>
+                <uix:NApplicationCard.TargetApp>
+                  <uix:TargetApp Area="-9, -9, 1938, 1218" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAH6SURBVDhPbVJNiE1hGH5mTGqSvwVT3Hve9xxXSpREWSg2FspCzLC4k7nnec+dotBMyl+6GwuSEguWLJQsbElEFvbKQig0Cz8JRTMycnW+73R+bvetd3Ge8zzv97w/QL+QiWUQuwCxV1D7BeEMxPb10vpH7dBqiL2GWjdP4R+ozWV5D1Frba9sAIElCHgeyvsVcf/8jjq3FHKJT2U/jhUkPkEQGyTZhqC1GWGyx7fFD96VvUdtahiIxldC+BtqsxBOO5sBm2V70Picm4fYWQTcD7HTvi224QD/4lsILzoXwhtQe+QcoDsAsRjCF2g0l0DtHYQPoTYBja+n1Q9kBd54QWcQGFvgXAh/IIq3O0zsqtuE8EjGf4mwvREQ3oLaP2/98PKqdR6H8DPWtOoIbReU3xDEo/mchNcAsS8FEO+uFAhtJCNOu283UDZLBT6lBZ6W1vO4UqDOVdnEL+WY2FSJ301ttitAaElB5hmPJ5Pue2R8kVtfzucMgB1DbuIe/Aq154i4AcqTUM47wTouBjpDEN6pPCZ2xb9UGx2G2mUof7rbV/vrBit8hpo13Omm7RXidOgf0YhX5G69ZdsJ5Qkoj0K416/S7kI4XxLPQXkbYXtrVZxGNLk0O5LCZiXTltjC+rGFvdJSdAahdhDCB9mKZ7PruwlJNvWy/wN0VudbOfb6QgAAAABJRU5ErkJggg==" sap2010:WorkflowViewState.IdRef="TargetApp_1" InformativeScreenshot="16f486d4dca8e3014705974eb1023d0d.jpg" Selector="&lt;html app='chrome.exe' title='타자 | 선수 기록 | 기록실 | 기록/순위 | KBO' /&gt;" Title="타자 | 선수 기록 | 기록실 | 기록/순위 | KBO" Url="[&quot;https://www.koreabaseball.com/Record/Player/&quot; +currentText]" Version="V1" />
+                </uix:NApplicationCard.TargetApp>
+              </uix:NApplicationCard>
+            </Sequence>
+          </ActivityAction>
+        </ui:ForEach.Body>
+      </ui:ForEach>
+    </Sequence>
+    <Sequence DisplayName="For Each UI Element | Sequence" sap:VirtualizedContainerService.HintSize="613.6,1085.6" sap2010:WorkflowViewState.IdRef="Sequence_14">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome 타자  선수 기록  기록실  기록순위  KBO(5)" sap:VirtualizedContainerService.HintSize="580,993.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="1d7c2bf5-0963-498c-8e3b-f130bd5af56a" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="546.4,753.6" sap2010:WorkflowViewState.IdRef="Sequence_16">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NForEachUiElement DisplayName="For Each UI Element" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='ul' idx='1' /&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="512.8,692" sap2010:WorkflowViewState.IdRef="NForEachUiElement_3" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="1d7c2bf5-0963-498c-8e3b-f130bd5af56a" Version="V4">
+                <uix:NForEachUiElement.Body>
+                  <ActivityAction x:TypeArguments="x:Int32">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,400" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="416,169.6" sap2010:WorkflowViewState.IdRef="NClick_2" InUiElement="[CurrentElement]" KeyModifiers="None" MouseButton="Left" Version="V4" />
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168.8" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;** &quot; +CurrentElement_Label +&quot; **&quot;]" />
+                    </Sequence>
+                  </ActivityAction>
+                </uix:NForEachUiElement.Body>
+                <uix:NForEachUiElement.Target>
+                  <uix:TargetAnchorable BrowserURL="https://www.koreabaseball.com/Record/Player/HitterBasic/BasicOld.aspx" ContentHash="HiMVMbqmSkuQR-02PVTIdQ" DesignTimeRectangle="593, 581, 1048, 44" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl class='tab-depth2' parentid='contents' tag='DIV' /&gt;" Guid="d047f8b8-5b26-4fca-b759-f22b38c28a86" InformativeScreenshot="4fb7a83e5f0719446b3edc47923d2ee8.png" Reference="Rh_AJ-pFj0iFccfp2SUFMQ/zVkby1a7_0iI29HXpg6URQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='타자 | 선수 기록 | 기록실 | 기록/순위 | KBO' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                </uix:NForEachUiElement.Target>
+                <uix:NForEachUiElement.Variables>
+                  <Variable x:TypeArguments="ui:UiElement" Name="CurrentElement" />
+                  <Variable x:TypeArguments="x:String" Name="CurrentElement_Label" />
+                </uix:NForEachUiElement.Variables>
+                <uix:NForEachUiElement.VariablesMetadata>
+                  <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column0" Capacity="4">
+                    <uuam:VariableMetadata Name="CurrentElement" Type="ui:UiElement" />
+                    <uuam:VariableMetadata Name="CurrentElement_Label" Type="x:String" />
+                  </scg:List>
+                </uix:NForEachUiElement.VariablesMetadata>
+              </uix:NForEachUiElement>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-9, -9, 1938, 1218" BrowserType="Chrome" ContentHash="oF7WS97qW0m7kA-g17ToTg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAH6SURBVDhPbVJNiE1hGH5mTGqSvwVT3Hve9xxXSpREWSg2FspCzLC4k7nnec+dotBMyl+6GwuSEguWLJQsbElEFvbKQig0Cz8JRTMycnW+73R+bvetd3Ge8zzv97w/QL+QiWUQuwCxV1D7BeEMxPb10vpH7dBqiL2GWjdP4R+ozWV5D1Frba9sAIElCHgeyvsVcf/8jjq3FHKJT2U/jhUkPkEQGyTZhqC1GWGyx7fFD96VvUdtahiIxldC+BtqsxBOO5sBm2V70Picm4fYWQTcD7HTvi224QD/4lsILzoXwhtQe+QcoDsAsRjCF2g0l0DtHYQPoTYBja+n1Q9kBd54QWcQGFvgXAh/IIq3O0zsqtuE8EjGf4mwvREQ3oLaP2/98PKqdR6H8DPWtOoIbReU3xDEo/mchNcAsS8FEO+uFAhtJCNOu283UDZLBT6lBZ6W1vO4UqDOVdnEL+WY2FSJ301ttitAaElB5hmPJ5Pue2R8kVtfzucMgB1DbuIe/Aq154i4AcqTUM47wTouBjpDEN6pPCZ2xb9UGx2G2mUof7rbV/vrBit8hpo13Omm7RXidOgf0YhX5G69ZdsJ5Qkoj0K416/S7kI4XxLPQXkbYXtrVZxGNLk0O5LCZiXTltjC+rGFvdJSdAahdhDCB9mKZ7PruwlJNvWy/wN0VudbOfb6QgAAAABJRU5ErkJggg==" InformativeScreenshot="16f486d4dca8e3014705974eb1023d0d.jpg" Reference="Rh_AJ-pFj0iFccfp2SUFMQ/N7M7qES6-EuZvBES60MaqA" Selector="&lt;html app='chrome.exe' title='타자 | 선수 기록 | 기록실 | 기록/순위 | KBO' /&gt;" Title="타자 | 선수 기록 | 기록실 | 기록/순위 | KBO" Url="https://www.koreabaseball.com/Record/Player/HitterBasic/BasicOld.aspx" Version="V1" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="613.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;** KBO DT Process END **&quot;]" />
+  </Sequence>
+</Activity>

@@ -1,0 +1,155 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="_02_1_그냥" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="_02_1_그냥_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="_02_1_그냥" sap:VirtualizedContainerService.HintSize="839.2,1582.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="516.8,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;** Browser Automation_Modern START **&quot;]" />
+    <Sequence sap:VirtualizedContainerService.HintSize="516.8,1219.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome NAVER(1)" sap:VirtualizedContainerService.HintSize="483.2,1127.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="6cab2939-9e12-4359-8634-cf1ded3f82fe" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,887.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="arrCity" />
+                <Variable x:TypeArguments="x:String" Name="strResult" />
+                <Variable x:TypeArguments="x:String" Name="strTemp" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="416,273.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="날씨를 검색할 도시명을 입력하세요." Title="날씨 검색">
+                <ui:InputDialog.Result>
+                  <OutArgument x:TypeArguments="x:String">[strResult]</OutArgument>
+                </ui:InputDialog.Result>
+              </ui:InputDialog>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT query'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="6cab2939-9e12-4359-8634-cf1ded3f82fe" Text="[&quot;오늘 &quot; +strResult +&quot; 날씨[k(Enter)]&quot;]" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="naver.com" ContentHash="hmJIbjYhnEGZ0G6EjrrJ1A" DesignTimeRectangle="602, 291, 600, 72" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='query' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='query' tag='INPUT' type='search' class='search_input' placeholder='검색어를 입력해 주세요.' aaname='검색어를 입력해 주세요.' /&gt;" Guid="0c334845-e568-4979-8af7-4a675efec720" InformativeScreenshot="c1fa77caf07e35023334dad197a1ccb6.png" Reference="Rh_AJ-pFj0iFccfp2SUFMQ/Q7ZCNRv-HUGFwU2hlDVi9w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='NAVER' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NGetText DisplayName="Get Text '현재 온도12.7°'" sap:VirtualizedContainerService.HintSize="416,189.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="6cab2939-9e12-4359-8634-cf1ded3f82fe" TextString="[strTemp]" Version="V4">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="search.naver.com/search.naver" ContentHash="ijjjidZSo0-hqQBD8cdgDg" DesignTimeRectangle="642, 671, 166, 77" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;strong' tag='STRONG' /&gt;" Guid="02b5e6f1-d27b-42aa-bb81-b38e99ff8a65" ImageBase64="" InformativeScreenshot="3c744ac256502d30a494b914918c13fa.png" Reference="Rh_AJ-pFj0iFccfp2SUFMQ/5tBu5aDKV0Gjpe96zR1ltA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='서울 날씨 : 네이버 검색' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,113.6" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[strResult +&quot;의 날씨 : &quot; +strTemp]" />
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-9, -9, 1938, 1218" BrowserType="Chrome" ContentHash="AAyIJCaw6UWMUEBvuwD_Gg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIDSURBVFhHxdPNalNRFAXgDWsiDpzcp3Do0/iT3J80uYkTJ458j4IOO/EFJJQWEWsbW1Ob0Fpje1tvtIg0FFEKDRjEuuTcQGr2uZ7pWfBNztl75ZA2gvNWG+ctetIW/GjSJ8G3Jn0SnKX0STBq0CfB1zp9Enyp0yfByQJ9Enyq0SkPGeTpnGt5TAyTq5lhzGDYtObMrtWnCHLzIQ5ZhTrPLnrEUfVq5mOsR4qYXatPERwndDq4p3uLPBgtEVk4nTmK9HURs2v1KYIsodOg/AGTP794K39EHEaFsphdq08RHMR0en9X986STU5540ONGIT6qojZtfoUwSCi07s7uncuS9/XiP3yb8nsWn2KYD+i0677ASbVz4v6qIjZtfoUwV5Ip/5t3Wvl4vKnPipidq0+RbAb0mmn/AHjy4k+smJ2rT5F0I/otF3+J0iGj/WRFbNr9SmCXkSnbvkDgn6Di6NVfTwXs2v1KYK3MZ22yn+GQa/F69sx98Yn+moWs2v1KYJuTKfN/zxgp0W8CXmz/5Dj3+X/D2bX6lMEWwmdOuW/8aB7f3r/OmSSPdHXRcyu1acINhM6bTgeMJup8OlZR48Uu1afIujU6LQeEq8qSpXYiP+ZS6Znes7s6j5FsG4+xB/B2gJ9Erys0yfBizp9Ejxv0CfBaoM+CVZS+iRYTttYTulJ+y+etvk9lxDJEwAAAABJRU5ErkJggg==" InformativeScreenshot="38e6c2145a53a21aabea725d7269e8f1.jpg" Reference="Rh_AJ-pFj0iFccfp2SUFMQ/H3eNsG5nJUG_QDMMz_8Uqw" Selector="&lt;html app='chrome.exe' title='NAVER' /&gt;" Title="NAVER" Url="https://www.naver.com/" Version="V1" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="516.8,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;** Browser Automation_Modern END **&quot;]" />
+  </Sequence>
+</Activity>

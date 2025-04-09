@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YunuWVvXPU-yUlz-gELl5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="search.shopping.naver.com/search/all" DesignTimeRectangle="356, 884, 196, 55" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='가격비교' aria-role='button' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='가격비교' aria-role='button' tag='A' type='' class='subFilter_filter__KS6xJ' check:innerText='가격비교' /&gt;" Guid="7e1862f1-84ea-4b3a-9fad-0dbb181094fa" ScopeSelectorArgument="&lt;html app='chrome.exe' title='모니터 : 네이버 가격비교' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="96b7c61e3cd1349b490a554b1bfbbf9a.png" xmlns="">0AFBjeuWSJ0yTOVaUhVhkxg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

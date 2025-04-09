@@ -1,0 +1,14 @@
+﻿{
+  "Name": "상품, 브랜드 입력",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "QQIgoo3Q8ECtFI3fuoG_Gw",
+  "Reference": "Rh_AJ-pFj0iFccfp2SUFMQ/QQIgoo3Q8ECtFI3fuoG_Gw",
+  "ParentRef": "Rh_AJ-pFj0iFccfp2SUFMQ/LOq4ytMe9kqEDiWd6mfytw",
+  "Created": "2025-04-09T03:46:20.7589576Z",
+  "Updated": "2025-04-09T03:46:20.7589576Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

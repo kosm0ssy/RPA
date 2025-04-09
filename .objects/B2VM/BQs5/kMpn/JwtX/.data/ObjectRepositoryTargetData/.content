@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yMAGQv1hJ0mDct7LL6M1lA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="search.shopping.naver.com/home" DesignTimeRectangle="344, 290, 460, 50" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='gnb-gnb' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='gnb-gnb' tag='INPUT' type='text' class='_searchInput_search_text_83jy9 _searchInput_placeholder_AG5yA _nlog_click' placeholder='상품명 또는 브랜드 입력' aaname='검색어 입력' /&gt;" Guid="cf7a76ba-6509-47e1-a2f8-4474d2bea7ac" ScopeSelectorArgument="&lt;html app='chrome.exe' title='네이버 가격비교' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5588bc1d9c1d99ab850f7f969964dec6.png" xmlns="">0feoQ6q3XWUCjPdKRnlr-Hw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
