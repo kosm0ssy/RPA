@@ -71,7 +71,7 @@
     {
       "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "25.2.3"
+        "Version": "25.2.4"
       },
       "Assemblies": [
         "C:\\Users\\Kosm._.os\\.nuget\\packages\\csvhelper\\16.0.0\\lib/netstandard2.1/CsvHelper.dll",
@@ -149,15 +149,15 @@
         "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.codedworkflows\\24.10.1\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
         "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.3.3\\lib/netstandard2.0/UiPath.OpenTelemetry.Contracts.dll",
         "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.platform\\24.12.3\\lib/net6.0-windows7.0/UiPath.Platform.dll",
-        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities\\25.2.3\\lib/net6.0-windows7.0/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities\\25.2.3\\lib/net6.0-windows7.0/UiPath.System.Activities.ViewModels.dll",
-        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime\\25.2.3\\lib/net6.0-windows7.0/UiPath.System.Activities.Package.Runtime.dll",
-        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.3\\lib/net6.0-windows7.0/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.3\\lib/net6.0-windows7.0/UiPath.System.Activities.Api.dll",
-        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.3\\lib/net6.0-windows7.0/UiPath.System.Activities.dll",
+        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities\\25.2.4\\lib/net6.0-windows7.0/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities\\25.2.4\\lib/net6.0-windows7.0/UiPath.System.Activities.ViewModels.dll",
+        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime\\25.2.4\\lib/net6.0-windows7.0/UiPath.System.Activities.Package.Runtime.dll",
+        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.4\\lib/net6.0-windows7.0/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.4\\lib/net6.0-windows7.0/UiPath.System.Activities.Api.dll",
+        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.4\\lib/net6.0-windows7.0/UiPath.System.Activities.dll",
         "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.telemetry.client\\2.3.3\\lib/netstandard2.0/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities\\25.2.3"
+      "Path": "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities\\25.2.4"
     },
     {
       "Package": {
@@ -4264,11 +4264,11 @@
     },
     "UiPath.System.Activities": {
       "Id": "UiPath.System.Activities",
-      "Version": "25.2.3",
+      "Version": "25.2.4",
       "Dependencies": [
         {
           "Item1": "UiPath.System.Activities.Runtime",
-          "Item2": "[25.2.3, )"
+          "Item2": "[25.2.4, )"
         },
         {
           "Item1": "CsvHelper",
@@ -4342,17 +4342,17 @@
     },
     "UiPath.System.Activities.Runtime": {
       "Id": "UiPath.System.Activities.Runtime",
-      "Version": "25.2.3",
+      "Version": "25.2.4",
       "Dependencies": [
         {
           "Item1": "UiPath.System.Activities.Runtime.Windows",
-          "Item2": "[25.2.3, )"
+          "Item2": "[25.2.4, )"
         }
       ]
     },
     "UiPath.System.Activities.Runtime.Windows": {
       "Id": "UiPath.System.Activities.Runtime.Windows",
-      "Version": "25.2.3",
+      "Version": "25.2.4",
       "Dependencies": [
         {
           "Item1": "CsvHelper",
@@ -6986,35 +6986,35 @@
     {
       "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "25.2.3"
+        "Version": "25.2.4"
       },
       "Assemblies": [
-        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities\\25.2.3\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Design.dll",
-        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities\\25.2.3\\lib\\net6.0-windows7.0\\UiPath.System.Activities.ViewModels.dll"
+        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities\\25.2.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Design.dll",
+        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities\\25.2.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.ViewModels.dll"
       ],
-      "Path": "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities\\25.2.3"
+      "Path": "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities\\25.2.4"
     },
     {
       "Package": {
         "Id": "UiPath.System.Activities.Runtime",
-        "Version": "25.2.3"
+        "Version": "25.2.4"
       },
       "Assemblies": [
-        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime\\25.2.3\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Package.Runtime.dll"
+        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime\\25.2.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Package.Runtime.dll"
       ],
-      "Path": "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime\\25.2.3"
+      "Path": "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime\\25.2.4"
     },
     {
       "Package": {
         "Id": "UiPath.System.Activities.Runtime.Windows",
-        "Version": "25.2.3"
+        "Version": "25.2.4"
       },
       "Assemblies": [
-        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.3\\lib\\net6.0-windows7.0\\UiPath.OrchestratorClient.dll",
-        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.3\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Api.dll",
-        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.3\\lib\\net6.0-windows7.0\\UiPath.System.Activities.dll"
+        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.4\\lib\\net6.0-windows7.0\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.Api.dll",
+        "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.4\\lib\\net6.0-windows7.0\\UiPath.System.Activities.dll"
       ],
-      "Path": "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.3"
+      "Path": "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.4"
     },
     {
       "Package": {

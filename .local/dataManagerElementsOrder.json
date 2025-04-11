@@ -306,6 +306,49 @@
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME/04_ACME_세부정보추출.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "listCtInfo&Sequence_4",
+        "strCtInfo&Sequence_20",
+        "strUrl&Sequence_2",
+        "index&Sequence_1",
+        "dtResult&Sequence_2",
+        "arrWI5&Sequence_4",
+        "dtWI5&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "02_과제/05_DT manufacturing_국립공원.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt국립공원&Sequence_3",
+        "dt탐방코스&Sequence_3",
+        "dtResult&Sequence_3",
+        "dtLeftResult&Sequence_3",
+        "dtFullResult&Sequence_3",
+        "dtSortResult&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME/04_ACME_세부정보추출.82c84dd7961c.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "WSSessionData&Sequence_1",
+        "strTemp&Sequence_13",
+        "strTempTrim&Sequence_13"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
     }
   ]
 }

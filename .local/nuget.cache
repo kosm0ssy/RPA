@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1/hAvistg7c=",
+  "dgSpecHash": "Q+FYrLbTDPM=",
   "success": true,
   "projectFilePath": "C:\\Users\\Kosm._.os\\Documents\\work\\rpa workspace\\RPA 2025\\.local\\",
   "expectedPackageFiles": [
@@ -254,9 +254,9 @@
     "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.opentelemetry.contracts\\2.3.3\\uipath.opentelemetry.contracts.2.3.3.nupkg.sha512",
     "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.pdf.activities\\3.20.2\\uipath.pdf.activities.3.20.2.nupkg.sha512",
     "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.platform\\24.12.3\\uipath.platform.24.12.3.nupkg.sha512",
-    "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities\\25.2.3\\uipath.system.activities.25.2.3.nupkg.sha512",
-    "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime\\25.2.3\\uipath.system.activities.runtime.25.2.3.nupkg.sha512",
-    "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.3\\uipath.system.activities.runtime.windows.25.2.3.nupkg.sha512",
+    "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities\\25.2.4\\uipath.system.activities.25.2.4.nupkg.sha512",
+    "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime\\25.2.4\\uipath.system.activities.runtime.25.2.4.nupkg.sha512",
+    "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.system.activities.runtime.windows\\25.2.4\\uipath.system.activities.runtime.windows.25.2.4.nupkg.sha512",
     "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.telemetry.client\\2.3.3\\uipath.telemetry.client.2.3.3.nupkg.sha512",
     "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.uiautomation.activities\\24.10.11\\uipath.uiautomation.activities.24.10.11.nupkg.sha512",
     "C:\\Users\\Kosm._.os\\.nuget\\packages\\uipath.uiautomation.activities.design.recoverypanel\\24.10.11\\uipath.uiautomation.activities.design.recoverypanel.24.10.11.nupkg.sha512",
