@@ -315,7 +315,6 @@
         "strCtInfo&Sequence_20",
         "strUrl&Sequence_2",
         "index&Sequence_1",
-        "dtResult&Sequence_2",
         "arrWI5&Sequence_4",
         "dtWI5&Sequence_2"
       ],
@@ -345,6 +344,32 @@
         "WSSessionData&Sequence_1",
         "strTemp&Sequence_13",
         "strTempTrim&Sequence_13"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME/05_ACME_Hash 추가.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "index&Sequence_1",
+        "strCtData&Sequence_1",
+        "strHash&Sequence_2",
+        "dtCtData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "02_과제/04_문자열 가공_3_네이버 쇼핑(네이버플러스).xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "arrSearch&Sequence_1",
+        "dtRaw&Sequence_1",
+        "dtFiltered&Sequence_1",
+        "strSearch&Sequence_6"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],

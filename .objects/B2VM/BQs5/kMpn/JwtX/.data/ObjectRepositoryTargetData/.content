@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="Sbqx04NQ6kKWIQKrhZmcPA" Reference="Rh_AJ-pFj0iFccfp2SUFMQ/JwtX-Kl6g0acZ6ISzvp4Yw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="ZSCHKgn9X0uOUZQQE10HlA" Reference="Rh_AJ-pFj0iFccfp2SUFMQ/JwtX-Kl6g0acZ6ISzvp4Yw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="search.shopping.naver.com/home" DesignTimeRectangle="344, 290, 460, 50" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='gnb-gnb' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='gnb-gnb' tag='INPUT' type='text' class='_searchInput_search_text_83jy9 _searchInput_placeholder_AG5yA _nlog_click' placeholder='상품명 또는 브랜드 입력' aaname='검색어 입력' /&gt;" Guid="cf7a76ba-6509-47e1-a2f8-4474d2bea7ac" ScopeSelectorArgument="&lt;html app='chrome.exe' title='네이버 가격비교' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="shopping.naver.com/ns/home" DesignTimeRectangle="352, 290, 459, 50" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='gnb-gnb' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='gnb-gnb' tag='INPUT' type='text' class='_searchInput_search_text_83jy9 _searchInput_placeholder_AG5yA _nlog_click' placeholder='상품명 또는 브랜드 입력' aaname='검색어 입력' /&gt;" Guid="6ea1a787-958e-4896-9846-75fc2f9eb6ce" ScopeSelectorArgument="&lt;html app='chrome.exe' title='네이버+ 스토어' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target DesignTimeRectangle="160, 301, 132, 28" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h1&amp;gt;a&amp;gt;svg' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='_gnbContent_icon_ESr3R _gnbContent_comparison_UTT0x' aaname='' /&gt;" Guid="92f6a9f6-7901-452a-96df-3c079e0382bb" SearchSteps="Selector, FuzzySelector" />
+          <Target DesignTimeRectangle="130, 278, 300, 75" FullSelectorArgument="&lt;webctrl tag='CANVAS' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='CANVAS' type='' class='' aaname='' /&gt;" Guid="43a5ab45-0855-4876-a987-f75784452cb7" SearchSteps="Selector, FuzzySelector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="51abb1f2ca508226bdbcc6294742a3bb.png" xmlns="">0CEmUZyZqwU2N9TFh5aM-TA</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="75dab6f3a3d6e5e0e8b706e227e54bce.png" xmlns="">00eddx6MtVEaoxL-JJTSWAw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>

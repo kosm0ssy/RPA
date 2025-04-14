@@ -245,7 +245,7 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="_04_ACME_세부정보추출" sap:VirtualizedContainerService.HintSize="820.0000000000001,3961.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="_04_ACME_세부정보추출" sap:VirtualizedContainerService.HintSize="871.2,3963.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="index">
         <sap:WorkflowViewStateService.ViewState>
@@ -261,7 +261,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="&lt; ACME 세부정보추출 &gt;&#xA;ACME Work Items 페이지에서 돋보기를 누르면 나오는 페이지에서 3개의 정보를 추출하여, 채워 넣는다.&#xA;- Client ID, Client Name, Client Country&#xA;- 필요시 Breakpoint 잡고 Local 패널에서 변수 값 확인 필요!&#xA;- 시트명 : WI_CT세부정보" sap:VirtualizedContainerService.HintSize="683.2,3938.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap2010:Annotation.AnnotationText="&lt; ACME 세부정보추출 &gt;&#xA;ACME Work Items 페이지에서 돋보기를 누르면 나오는 페이지에서 3개의 정보를 추출하여, 채워 넣는다.&#xA;- Client ID, Client Name, Client Country&#xA;- 필요시 Breakpoint 잡고 Local 패널에서 변수 값 확인 필요!&#xA;- 시트명 : WI_CT세부정보" sap:VirtualizedContainerService.HintSize="683.2,3940" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="dtWI5" />
         <Variable x:TypeArguments="x:String" Name="strUrl" />
@@ -283,7 +283,7 @@
         <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="416,113.6" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="[&quot;총 &quot; +dtWI5.RowCount.ToString.Trim +&quot;행&quot;]" />
       </Sequence>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="649.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;** read range workbook success **&quot;]" />
-      <Sequence sap2010:Annotation.AnnotationText="Client ID, Client Name, Client Country" DisplayName="세부정보 추출 &amp; DT 저장 | Sequence" sap:VirtualizedContainerService.HintSize="649.6,3009.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <Sequence sap2010:Annotation.AnnotationText="Client ID, Client Name, Client Country" DisplayName="세부정보 추출 &amp; DT 저장 | Sequence" sap:VirtualizedContainerService.HintSize="649.6,3011.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
         <Sequence.Variables>
           <Variable x:TypeArguments="s:String[][]" Name="arrWI5" />
           <Variable x:TypeArguments="scg:List(x:String)" Default="[New List(Of String)]" Name="listCtInfo" />
@@ -294,19 +294,19 @@
             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="04_ACME_세부정보추출 | Use Application / Browser" sap:VirtualizedContainerService.HintSize="616,2720.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="71bf78cc-bfef-4dfd-a64b-f799b29da5a6" Version="V2">
+        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="04_ACME_세부정보추출 | Use Application / Browser" sap:VirtualizedContainerService.HintSize="616,2722.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="71bf78cc-bfef-4dfd-a64b-f799b29da5a6" Version="V2">
           <uix:NApplicationCard.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="582.4,2472" sap2010:WorkflowViewState.IdRef="Sequence_18">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="582.4,2473.6" sap2010:WorkflowViewState.IdRef="Sequence_18">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[index]" DataTable="[dtWI5]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="548.8,2410.4" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[index]" DataTable="[dtWI5]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="548.8,2412" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                   <ui:ForEachRow.Body>
                     <ActivityAction x:TypeArguments="sd:DataRow">
                       <ActivityAction.Argument>
@@ -331,7 +331,7 @@
                         </Assign>
                         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="513.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;** redirecting to &quot; +strUrl +&quot;... **&quot;]" />
                         <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="513.6,114.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[strUrl]" Version="V4" />
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="513.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;** extracting client data **&quot;]" />
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="513.6,176" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;** extracting client data **&quot;]" />
                         <uix:NGetText DisplayName="Get Text 'Client ID PU23971 Clie…'" sap:VirtualizedContainerService.HintSize="513.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_6" ScopeIdentifier="71bf78cc-bfef-4dfd-a64b-f799b29da5a6" TextString="[strCtInfo]" Version="V4">
                           <uix:NGetText.Target>
                             <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items/105680615" ContentHash="BYAitk5CiUasZ43egaSJFQ" DesignTimeRectangle="383, 640, 466, 75" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='' aaname='                              PU23971                              Chance Strittmatter                              Germany                         ' /&gt;" Guid="69239e1b-7e39-4a67-8a3e-755b7cacb576" InformativeScreenshot="eb726fab2b2ceb7d4ddd3e0660936d20.png" Reference="Rh_AJ-pFj0iFccfp2SUFMQ/E8WV1SFsJk-WfbhLZ4TDxQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive" />
@@ -354,7 +354,7 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <Assign sap2010:Annotation.AnnotationText="1. &#xD;&#xA;Variable Type : List&lt;T&gt; -&gt; type : string&#xA;NewLine, VbCrLf &gt; 작동 안됨 (왜?)" DisplayName="1. | Assign" sap:VirtualizedContainerService.HintSize="433.6,164.8" sap2010:WorkflowViewState.IdRef="Assign_5">
+                                <Assign sap2010:Annotation.AnnotationText="1. &#xA;Variable Type : List&lt;T&gt; -&gt; type : string&#xA;NewLine, VbCrLf &gt; 작동 안됨 (왜?)" DisplayName="1. | Assign" sap:VirtualizedContainerService.HintSize="433.6,164.8" sap2010:WorkflowViewState.IdRef="Assign_5">
                                   <Assign.To>
                                     <OutArgument x:TypeArguments="scg:List(x:String)">[listCtInfo]</OutArgument>
                                   </Assign.To>
@@ -497,7 +497,7 @@
             <uix:TargetApp Area="-9, -9, 1938, 1218" BrowserType="Chrome" ContentHash="XZpXbKjQL0yZlsR1_4qdOQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAShSURBVFhHvdd7TFNXHAfw3wbr7NQ94hLnGImTbOJI/GeaZX9sYXMbM5mL8Q/3z2RGk4mbZhth5SVCebT1AmXjoZY9NAiCzJDoyPbHImAVevu6t71t54CWRxYqdEBFnCYE+C3nXm+53NBOsPWPb8gp9/T3yem55wGgYYZBw9wGDTP1iENqDgFoGAyljMS+0I567EIN6WegYYKhhtqGkG9GOGaJTfJJzAJCx9ecIIAp0DL8P9MueFsN3Pi+3Kv+jOwVRuyb1enPyDMKIW1Vlz9DS48dyOwYKYFSO0IxP9KTAoCIjltwT9vgDgM3DrlX/ZC9woh9szr9kGcUQtqqLj9o6THI7BgBxQkW4bgVQSsFFFvx3Wbv0VgDfnRObIkngCI5oMiKO1t9X0YLMDozv2lbras7tcVrkAIMzPirYQFpUQIg4vNxOgfCF0aEQ0Y81j16WQTozWPhAR/9sgBIrHPXKyknA2ob836rr1peSMzWn/4yQrHN+nSlk4srZQ6Svl0376bDwU6EKg7h624EHYsioMIcCA/YdXEBoCx33IUiG0K2Cbed7Q3IC4tJqHUj5JgQSmwIavuZ+wBI+uEGwpFrfNp8U+plA57RcyYosSPkmfHNxr4r8sJiNp3yzPLvtsaOz33HFUoAUNA5sieHDrzW5psKzYHTkebAIkAlZ5YAOuWFJYB58gwBrC53FskAkEMHYOzfucdEQL1jInYAhY4NATae9KCyxIZPUSwm1rmrREADNxllwGnPnAhQSkZgrd6J8K2JX4IVlIMSAU3u6ANCIyAFJNa5EQos/Ob2QrWrSAQ0RhuQFAbwEnk7CKDUjuu/XwHgWf0DA5b8CVYE+FgCWHXCYeF3rXwzbm/o65AXFpNc75nhAVp+r1c/FEC6Eq7VO91QbENQmXBHi/d3eWExiScXCq2udJY/FODt894Q4LPfhi/DNz0IWT34RlO/X15YTDzl5LdyyKaxmgkcFgEv1qwA8FbjAuCMZ/IQv5SSTSXfjL23Z16WF59H3Aq5NFmC+ddt6M7MBhGwvtq1fMB7LYsAoKxwIORahIcLrZh/7eb+cksgufnP4JacrhEVv1eUMghHruPrjX23hu7M8H0jjUBDJMCHku2YANr/nj4Mn14RzotkPmTTqKhwCu0sk3CGJEU+N2JwDj+QAhLJHCA/TZkdN1S7Cx9oBJYAwCftw3bI7EH4qlvoRHY+csAstCL5XKG24r4/RqjgHIIUAFoW4eh1fhJDKVMnApo9ywdA+8D09r1tA7+uoxy4hmIxXsdigp6bTr80eG743qxi+N4syAHvnO+/lVTjmt1s8GBqk1clAs5yETajCADY2zYA6ygHrKFYiNexkKDnIP3SIJDiYQCQVOOCzQYPpDZ5Q9vxKSYCIK3VFzqUxgrws2MiOSxgZ6tv1yMAwJPUUsfyAgvuvjhQduFGcGOVJZBSTi8ORQdSKulAis40yrcrl3jm/1LL/PMKRY/tjicTVG0NXUyEq1kZg3FaFldRDnxcyyIZpmjnCTL0GlZYO4TrIH81ExrkrkauS+T1IrpYRPxu2eW0nx8KDRPgo73/NxZZ/N2kZu9/PqMYP3lO0UYAAAAASUVORK5CYII=" InformativeScreenshot="687a0b97b7ea20736df1d3024ef0e244.jpg" Reference="Rh_AJ-pFj0iFccfp2SUFMQ/alhWm9BqFkGgAK-RZ-L-RQ" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" Title="ACME System 1 - Work Items" Url="https://acme-test.uipath.com/work-items" Version="V1" />
           </uix:NApplicationCard.TargetApp>
         </uix:NApplicationCard>
-        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="616,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;** client data extracting success **&quot;]" />
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="616,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Fatal" Message="[&quot;** client data extracting success **&quot;]" />
       </Sequence>
       <Sequence DisplayName="DT 저장 | Sequence" sap:VirtualizedContainerService.HintSize="649.6,222.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
         <sap:WorkflowViewStateService.ViewState>
