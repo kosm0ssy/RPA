@@ -224,7 +224,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="01_ACME_login - Invoke Workflow File (03_ACME_Module2\01_ACME_login.xaml)" sap:VirtualizedContainerService.HintSize="417.6,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="03_ACME_Module2\01_ACME_login.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="01_ACME_login - Invoke Workflow File (03_ACME_Module2\01_ACME_login.xaml)" sap:VirtualizedContainerService.HintSize="417.6,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_17" UnSafe="False" WorkflowFileName="03_ACME_Module2\01_ACME_login.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <InArgument x:TypeArguments="x:String" x:Key="in_strId">[strId]</InArgument>
           <InArgument x:TypeArguments="ss:SecureString" x:Key="in_sstrPw">[sstrPw]</InArgument>
