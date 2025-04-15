@@ -353,7 +353,7 @@
       "Path": "03_ACME/05_ACME_Hash 추가.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "index&Sequence_1",
+        "CurrentIndex&Sequence_10",
         "strCtData&Sequence_1",
         "strHash&Sequence_2",
         "dtCtData&Sequence_1"
@@ -370,6 +370,30 @@
         "dtRaw&Sequence_1",
         "dtFiltered&Sequence_1",
         "strSearch&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME/06_ACME_Update.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtCtData&Sequence_2",
+        "CurrentIndex&Sequence_2",
+        "strUrl&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME/07_ACME_작업확인.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtHash&Sequence_2",
+        "dtRaw&Sequence_2",
+        "dtFiltered&Sequence_2"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
