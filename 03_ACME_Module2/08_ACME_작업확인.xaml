@@ -102,7 +102,7 @@
       <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="_07_ACME_작업확인" sap:VirtualizedContainerService.HintSize="871.2,2667.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="_07_ACME_작업확인" sap:VirtualizedContainerService.HintSize="871.2,2758.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtTestFiltered" />
     </Sequence.Variables>
@@ -111,7 +111,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="Work Items DT를 추출하여 다음 두 조건을 만족하는 DT를 ACME.xlsx 파일의 &quot;RPA수행결과&quot; 시트에 입력한다.&#xA;- Type == WI5&#xA;- Status == Completed 가 아닌 것" DisplayName="7. 작업확인 | Sequence" sap:VirtualizedContainerService.HintSize="550.4,2644" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap2010:Annotation.AnnotationText="Work Items DT를 추출하여 다음 두 조건을 만족하는 DT를 ACME.xlsx 파일의 &quot;RPA수행결과&quot; 시트에 입력한다.&#xA;- Type == WI5&#xA;- Status == Completed 가 아닌 것" DisplayName="7. 작업확인 | Sequence" sap:VirtualizedContainerService.HintSize="550.4,2735.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="dtRaw" />
         <Variable x:TypeArguments="sd:DataTable" Name="dtHash" />
@@ -243,30 +243,13 @@
           <ui:ReadRange Range="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dtHash]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="416,111.2" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="Hash" WorkbookPath="Data\Output\ACME.xlsx" />
         </Sequence>
       </Sequence>
-      <Sequence DisplayName="DT 저장 | Sequence" sap:VirtualizedContainerService.HintSize="516.8,279.2" sap2010:WorkflowViewState.IdRef="Sequence_16">
+      <Sequence DisplayName="DT 저장 | Sequence" sap:VirtualizedContainerService.HintSize="516.8,370.4" sap2010:WorkflowViewState.IdRef="Sequence_16">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_2">
-          <ui:CommentOut.Body>
-            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,199.2" sap2010:WorkflowViewState.IdRef="Sequence_15">
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-              <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dtRaw]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="416,139.2" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="RPA 수행결과_원본" WorkbookPath="Data\Output\ACME.xlsx" />
-            </Sequence>
-          </ui:CommentOut.Body>
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </ui:CommentOut>
+        <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dtRaw]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="416,148" sap2010:WorkflowViewState.IdRef="WriteRange_3" SheetName="RPA 수행결과_원본" WorkbookPath="Data\Output\ACME_Module2.xlsx" />
         <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dtTestFiltered]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="416,139.2" sap2010:WorkflowViewState.IdRef="WriteRange_2" SheetName="RPA Test" WorkbookPath="Data\Output\ACME_Module2.xlsx" />
       </Sequence>
     </Sequence>

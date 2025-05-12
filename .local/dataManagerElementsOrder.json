@@ -11,7 +11,14 @@
     {
       "Path": "Main.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "strId&Sequence_1",
+        "sstrPw&Sequence_1",
+        "index&Sequence_1",
+        "dtFiltered&Sequence_6",
+        "dtFiltered&Sequence_9",
+        "dtRaw&Sequence_9"
+      ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
@@ -395,6 +402,360 @@
         "dtRaw&Sequence_2",
         "dtFiltered&Sequence_2"
       ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module1/01_ACME_login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "outputElement&Sequence_1",
+        "outputElement_3&Sequence_1",
+        "uiLogout&Sequence_1",
+        "logoutSession&Sequence_9",
+        "outputPw&Sequence_3",
+        "outputId&Sequence_3",
+        "loginSessionData&Sequence_3",
+        "blLogout&Sequence_12"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strId",
+        "in_sstrPw"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module1/02_ACME_메뉴 진입.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module1/03_ACME_DT Extraction.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtRaw&Sequence_1",
+        "intIndex&Sequence_22",
+        "strPage&Sequence_23",
+        "arrNewColumn&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_dtFiltered"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module1/04_ACME_세부정보추출.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "index&Sequence_1",
+        "strUrl&Sequence_2",
+        "arrWI5&Sequence_4",
+        "listCtInfo&Sequence_4",
+        "strCtInfo&Sequence_20"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_dtFiltered"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module1/05_ACME_Hash 추가.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strCtData&Sequence_1",
+        "strHash&Sequence_2",
+        "CurrentIndex&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_dtFiltered"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module1/06_ACME_Update.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "CurrentIndex&Sequence_2",
+        "strUrl&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_dtFiltered"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module1/07_ACME_작업확인.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtFiltered&Sequence_2",
+        "dtRaw&Sequence_2",
+        "dtHash&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module2/04_ACME_세부정보추출.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strCtInfo&Sequence_1",
+        "listCtInfo&Sequence_1",
+        "strUrl&Sequence_2",
+        "arrWI5&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_CurrentRow",
+        "io_dtFiltered"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module2/02_ACME_메뉴 진입.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module2/03_ACME_DT Extraction.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "intIndex&Sequence_22",
+        "strPage&Sequence_23",
+        "arrNewColumn&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_dtRaw",
+        "out_dtFiltered"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module2/07_ACME_DT기록.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_dtRaw",
+        "in_dtFiltered"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module2/05_ACME_Hash 추가.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strCtData&Sequence_1",
+        "strHash&Sequence_2",
+        "CurrentIndex&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_CurrentRow",
+        "io_dtFiltered"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module2/06_ACME_Update.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strUrl&Sequence_19",
+        "CurrentIndex&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_dtFiltered",
+        "io_CurrentRow"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module2/08_ACME_작업확인.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtTestFiltered&Sequence_1",
+        "dtRaw&Sequence_2",
+        "dtHash&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "03_ACME_Module2/01_ACME_login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "outputElement&Sequence_1",
+        "outputElement_3&Sequence_1",
+        "uiLogout&Sequence_1",
+        "logoutSession&Sequence_9",
+        "outputPw&Sequence_3",
+        "outputId&Sequence_3",
+        "loginSessionData&Sequence_3",
+        "blLogout&Sequence_12"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strId",
+        "in_sstrPw"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "04_Mail/01_SMTP_이메일발송.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strBody&Sequence_1",
+        "lstAttatch&Sequence_1",
+        "sstrPw&Sequence_1",
+        "strId&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "04_Mail/02_IMAP_메일 수신.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "intIndex&Sequence_1",
+        "lstMailMessages&Sequence_1",
+        "sstrPw&Sequence_1",
+        "strId&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "04_Mail/03_HTML 형식 DT_메일 발송.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strBody&Sequence_1",
+        "lstAttatch&Sequence_9",
+        "strBody&Sequence_5",
+        "dtHash&Sequence_1",
+        "strId&Sequence_3",
+        "sstrPW&Sequence_3",
+        "lstAttatch&Sequence_3",
+        "strBody&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "../../../../AppData/Local/Programs/UiPath/Studio/Snippets/Windows/SnippetsVBasic/Snippets/Mail/01_SMTP_이메일발송.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strId&Sequence_1",
+        "sstrPw&Sequence_1",
+        "lstAttatch&Sequence_1",
+        "strBody&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "../../../../AppData/Local/Programs/UiPath/Studio/Snippets/Windows/SnippetsVBasic/Snippets/Mail/03_HTML 형식 DT_메일 발송.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtHash&Sequence_1",
+        "strBody&Sequence_1",
+        "strBody&Sequence_5",
+        "lstAttatch&Sequence_9",
+        "strDt&Sequence_1",
+        "datatable&Sequence_1",
+        "strId&Sequence_3",
+        "sstrPW&Sequence_3",
+        "lstAttatch&Sequence_3",
+        "strBody&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "01_이론/05_예외처리.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtMountain&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "04_1_Mail - Snippet/01_IMAP_메일 수신.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SavedAttachments&Sequence_5",
+        "strId&Sequence_1",
+        "sstrPw&Sequence_1",
+        "lstMailMessages&Sequence_1",
+        "intIndex&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "04_1_Mail - Snippet/꺼져.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dictData__Receiver__&Sequence_11",
+        "dictData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "strId",
+        "sstrPW"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "04_1_Mail - Snippet/00_Get Credential.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_sstrPw",
+        "out_strId"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "04_1_Mail - Snippet/02_IMAP_메일 발신.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "htmlBody&Sequence_4",
+        "sstrPw&Sequence_1",
+        "strId&Sequence_1",
+        "dictData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "05_Robot/RobotTest.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
