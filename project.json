@@ -4,10 +4,11 @@
   "description": "2025 ICT AI Agent 과정 ",
   "main": "Main.xaml",
   "dependencies": {
+    "RpaLibrary": "[1.0.5]",
     "UiPath.Excel.Activities": "[2.24.4]",
     "UiPath.Mail.Activities": "[1.23.1]",
     "UiPath.PDF.Activities": "[3.20.2]",
-    "UiPath.System.Activities": "25.2.4",
+    "UiPath.System.Activities": "25.4.2",
     "UiPath.UIAutomation.Activities": "[24.10.11]"
   },
   "webServices": [],
