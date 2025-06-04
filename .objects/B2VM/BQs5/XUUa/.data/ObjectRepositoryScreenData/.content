@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryScreenData ContentHash="9FSvy2tGaEy5Con1upST6Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryScreenData.Data>
-    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1218" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEcSURBVFhHY2AYBaNgFIyCwQKYj0fvZz4e9Z9UXOz2mXTs/nk/uv0M6AYTizEMJxKj2z+4HCB8OuV/4+M1YKx8Lh8s5nS1GcxPujODKAe8e/H3/52LfzDEiXIAyFIYOPDxGlgMZDmEf5UoB4DA2xd/McRJdgAIFN5fTJQDWmK/wjHMATB+deAX8hxw/8fr/+9/f/2/4e0Zgg4ABTsucGrnb/IcAIp7ZIDPAYfW/QJbBMKXj0JoGF7e/Z08B4D4E59vI8oByBgEDq3/hSFOlgNAGJQYSXUA2YmQFIxuMAyv6P7+f349arDT1QGEMLr9DMzHot+jG04MRjeYWIxuPwPzsZgAluNRDaTiErfPpGOPzw7o9o+CUTAKRsGAAQBBDv7OpPaQ1gAAAABJRU5ErkJggg==" Selector="&lt;html app='chrome.exe' title='네이버+ 스토어' /&gt;" Title="네이버+ 스토어" Url="https://shopping.naver.com/ns/home" Version="V1">
-      <imageRef attrName="InformativeScreenshot" originalValue="dc3995f794f45cd83dd9a8865787549b.jpg" xmlns="">0xye9Dj0cAkWaIeeFgxdmQQ</imageRef>
-    </TargetApp>
-  </ObjectRepositoryScreenData.Data>
-</ObjectRepositoryScreenData>
